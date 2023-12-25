@@ -26,7 +26,7 @@ article{
     padding: 5px 20px 20px 20px;
     color: white;
     margin: 5px 40px 0 40px;
-    height: 900px;
+    height: 60%;
 }
 h3{
     text-align: center ;
@@ -105,7 +105,9 @@ ul{
     margin-top: 2px;
     margin-left: 145px;
 }
-
+section{
+    padding: 0px 100px;
+}
 .asia1  img{
     position:relative   ;
         padding-left: -100px;
@@ -130,6 +132,7 @@ ul{
 }
 .www1 ul{
 width: 245px;
+font-size: small;
 }
 .asia2 p{
     text-shadow: 2px 2px 2px #111;
@@ -199,18 +202,32 @@ footer a{
     margin: 20px;
     font-size: larger;
 }
+.wwww1{
+    font-size: large;
+}
 @media screen and (max-width: 420px) {
     body {
         width: 420px;
+        font-size: xx-large;
     }
+    html {
+        width: 420px;
+    }
+    
 }
 @media screen and (max-width: 600px) {
     body {
         width: 600px;
     }
+    html {
+        width: 600px;
+    }
 }
 @media screen and (max-width: 768px) {
     body {
+        width: 768px;
+    }
+    html {
         width: 768px;
     }
 }
@@ -219,9 +236,23 @@ footer a{
     body {
         width: 1080px;
     }
+    html {
+        width: 1080px;
+    }
 }
 @media screen and (max-width: 1220px) {
     body {
         width: 1220px;
+    }
+    html {
+        width: 1220px;
+    }
+}
+@media screen and (max-width: 1420px) {
+    body {
+        width: 1420px;
+    }
+    html {
+        width: 1420px;
     }
 }
